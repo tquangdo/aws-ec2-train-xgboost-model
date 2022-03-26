@@ -9,8 +9,8 @@
 [tiensu](https://tiensu.github.io/blog/14_train_xgboost_models_on_aws/)
 
 ## launch EC2
-- step AMI: input `Fedora-Cloud-Base`
-- step instance type: select `r4.8xlarge` (32 cores CPU)
+- step "AMI": input `Fedora-Cloud-Base`
+- step "instance type": select `r4.8xlarge` (32 cores CPU)
 ![ec2](screenshots/ec2.png)
 
 ## fedora os
@@ -61,4 +61,5 @@ tail -f check_num_threads.py.out
 /usr/local/lib64/python3.6/site-packages/xgboost/sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
 ...
 1 67.40188431739807
+...
 ```
